@@ -1,0 +1,20 @@
+## R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+## macOS
+.DS_Store
+
+## codestyle: input / output / temp gitignored (keep the dirs)
+exercises/**/input/**
+exercises/**/output/**
+exercises/**/temp/**
+!exercises/**/input/.gitkeep
+!exercises/**/output/.gitkeep
+!exercises/**/temp/.gitkeep
+
+## ship the KITE initial conditions to students (committed on purpose)
+!exercises/02-kite-russia/input/initial_conditions/
+!exercises/02-kite-russia/input/initial_conditions/initial_conditions_ICIO_2022.rds
